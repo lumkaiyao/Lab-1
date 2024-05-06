@@ -9,7 +9,7 @@ on:
     #        │ │ ┌────────── day (month)
     #        │ │ │ ┌──────── month
     #        │ │ │ │ ┌────── day (week)
-    - cron: '0 0 1 * *'
+    - cron: '* * * * *'
   workflow_dispatch:
     inputs:
       fromdate:
